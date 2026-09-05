@@ -1,0 +1,162 @@
+/* =========================================
+   GLOBAL STYLING
+   ========================================= */
+
+body {
+    margin: 0;
+    background-color: #F9F6F1;
+    color: #3D3A35;
+    font-family: "Georgia", serif;
+}
+
+
+/* =========================================
+   MAIN APP CONTAINER
+   ========================================= */
+
+.app-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 50px 60px 50px;
+}
+
+
+/* =========================================
+   TITLE
+   ========================================= */
+
+.main-title {
+    text-align: center;
+    font-size: 42px;
+    color: #6F4E51;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #77716A;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+
+/* =========================================
+   SECTION CARDS
+   ========================================= */
+
+.section-card {
+    background-color: #FFFFFF;
+    border-radius: 18px;
+    padding: 28px 32px;
+    margin-bottom: 30px;
+
+    box-shadow:
+        0 4px 18px rgba(80, 60, 50, 0.08);
+}
+
+.section-title {
+    color: #6F4E51;
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+.section-description {
+    color: #77716A;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+
+/* =========================================
+ TWO-COLUMN BUILDER
+========================================= */
+
+
+
+.builder-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 100%;
+    margin-bottom: 30px;
+    align-items: stretch;
+}
+
+.builder-card {
+    flex: 1 1 0;
+    width: 0;
+    min-width: 0;
+
+    background-color: #FFFFFF;
+    border-radius: 18px;
+    padding: 30px;
+    min-height: 350px;
+    box-sizing: border-box;
+
+    box-shadow:
+        0 4px 18px rgba(80, 60, 50, 0.08);
+}
+
+/* =========================================
+   LABELS
+   ========================================= */
+
+label {
+    color: #5E5750;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+/* =========================================
+   DROPDOWNS
+   ========================================= */
+
+.Select-control {
+    border-radius: 10px !important;
+}
+
+.Select-menu-outer {
+    font-family: Arial, sans-serif;
+}
+
+
+/* =========================================
+   RECOMMENDATION HEADINGS
+   ========================================= */
+
+h3 {
+    color: #9B5C62;
+}
+
+h4 {
+    color: #8A9A7B;
+}
+
+
+/* =========================================
+   FLOWER IMAGES
+   ========================================= */
+
+.flower-image {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+
+/* =========================================
+   FOOTER
+   ========================================= */
+
+.footer {
+    text-align: center;
+    color: #99918A;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    margin-top: 40px;
+}

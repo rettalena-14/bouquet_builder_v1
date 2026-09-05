@@ -1,0 +1,99 @@
+flower_type,flower_name,colours,variant_name,blooming_season,import_non,cost_per_stem,cost_per_bunch,quantity
+focal flowers,rose,light pink,sweet pink,all season,local,"5,000",100000,20
+focal flowers,rose,red,sexy red,all season,local,"6,750",135000,20
+focal flowers,rose,white,avalan,all season,local,"5,000",100000,20
+focal flowers,rose,yellow,mohana,all season,local,"5,000",100000,20
+focal flowers,rose,purple,cool water,all season,local,"5,000",100000,20
+focal flowers,rose,orange,fudu,all season,local,"5,000",100000,20
+focal flowers,rose,hot pink,karina,all season,local,"5,000",100000,20
+focal flowers,rose,peach,kahala,all season,ecuador,"27,000",540000,20
+focal flowers,rose,cream,quick sand,all season,ecuador,"21,000",420000,20
+focal flowers,rose,light purple,ocean song,all season,ecuador,"18,000",360000,20
+focal flowers,rose,dark red,naomi,all season,vietnam,"12,500",250000,20
+focal flowers,rose,white pink,jumilia,all season,vietnam,"12,500",250000,20
+focal flowers,rose,light pink,baby love,all season,vietnam,"12,500",250000,20
+secondary focal flowers,lysianthus,pink,pink,all season,vietnam,"18,000",180000,10
+secondary focal flowers,lysianthus,green,green,all season,vietnam,"18,000",180000,10
+secondary focal flowers,lysianthus,pink rim,pink rim,all season,vietnam,"18,000",180000,10
+secondary focal flowers,lysianthus,purple,purple,all season,vietnam,"18,000",180000,10
+secondary focal flowers,lysianthus,purple rim,purple rim,all season,vietnam,"18,000",180000,10
+secondary focal flowers,lysianthus,white,white,all season,vietnam,"18,000",180000,10
+secondary focal flowers,lysianthus,yellow,yellow,all season,vietnam,"18,000",180000,10
+secondary focal flowers,lysianthus,champagne,champagne,all season,china,"22,500",225000,10
+secondary focal flowers,lysianthus,tea color,maroon,all season,china,"22,500",225000,10
+secondary focal flowers,lysianthus,red,red,all season,china,"22,500",225000,10
+secondary focal flowers,lysianthus,white,white,all season,china,"22,500",225000,10
+fillers,babys breath (gysophilla),white,white,all season,ecuador,"18,000",180000,10
+line flowers,delphinium,light blue,chiffon blue,May,local,"50,000",250000,5
+line flowers,delphinium,light blue,chiffon blue,June,local,"50,000",250000,5
+line flowers,delphinium,light blue,chiffon blue,July,local,"50,000",250000,5
+fillers,hydrangea,light blue,light blue,June,local,0,"50,000",1
+fillers,hydrangea,light blue,light blue,June,local,0,"50,000",1
+fillers,hydrangea,light blue,light blue,July,local,0,"50,000",1
+fillers,hydrangea,light blue,light blue,July,local,0,"50,000",1
+fillers,hydrangea,light blue,light blue,October,local,0,"50,000",1
+fillers,hydrangea,light blue,light blue,October,local,0,"50,000",1
+fillers,hydrangea,green,green,June,local,0,"40,000",1
+fillers,hydrangea,green,green,June,local,0,"40,000",1
+fillers,hydrangea,green,green,July,local,0,"40,000",1
+fillers,hydrangea,green,green,July,local,0,"40,000",1
+fillers,hydrangea,green,green,October,local,0,"40,000",1
+fillers,hydrangea,green,green,October,local,0,"40,000",1
+fillers,hydrangea,light pink,charm,June,vietnam,0,"65,000",1
+fillers,hydrangea,light pink,charm,July,vietnam,0,"65,000",1
+fillers,hydrangea,light pink,charm,Oct,vietnam,0,"65,000",1
+fillers,hydrangea,white,white,June,vietnam,0,"65,000",1
+fillers,hydrangea,white,white,July,vietnam,0,"65,000",1
+fillers,hydrangea,white,white,Oct,vietnam,0,"65,000",1
+fillers,hydrangea,red,trophy,June,vietnam,0,"65,000",1
+fillers,hydrangea,red,trophy,July,vietnam,0,"65,000",1
+fillers,hydrangea,red,trophy,Oct,vietnam,0,"65,000",1
+fillers,chamomile,white,white,all season,local,0,"150,000",1
+secondary focal flowers,carnations,pink,pink,all season,local,4500,"45,000",1
+secondary focal flowers,carnations,red,red,all season,local,4500,"45,000",1
+secondary focal flowers,carnations,white,white,all season,local,4500,"45,000",1
+secondary focal flowers,carnations,peach,peach,all season,local,4500,"45,000",1
+fillers,carnations spray,pink,pink,all season,local,4500,"45,000",1
+fillers,carnations spray,red,red,all season,local,4500,"45,000",1
+fillers,carnations spray,white,white,all season,local,4500,"45,000",1
+fillers,carnations spray,orange,orange,all season,local,4500,"45,000",1
+line flowers,calla lily,duban,purple,May,vietnam,"50,000","250,000",5
+line flowers,calla lily,duban,purple,June,vietnam,"50,000","250,000",5
+line flowers,calla lily,duban,purple,July,vietnam,"50,000","250,000",5
+line flowers,calla lily,duban,purple,August,vietnam,"50,000","250,000",5
+line flowers,calla lily,dark pink,fantasia,May,vietnam,"50,000","250,000",5
+line flowers,calla lily,dark pink,fantasia,June,vietnam,"50,000","250,000",5
+line flowers,calla lily,dark pink,fantasia,July,vietnam,"50,000","250,000",5
+line flowers,calla lily,dark pink,fantasia,August,vietnam,"50,000","250,000",5
+line flowers,tulips,yellow,strong gold,April,holland,"23,000","230,000",10
+line flowers,tulips,yellow,strong gold,May,holland,"23,000","230,000",10
+secondary focal flowers,tulips,yellow,strong gold,April,holland,"23,000","230,000",10
+secondary focal flowers,tulips,yellow,strong gold,May,holland,"23,000","230,000",10
+line flowers,tulips,purple,purple prince,April,holland,"23,000","230,000",10
+line flowers,tulips,purple,purple prince,May,holland,"22,000","220,000",10
+secondary focal flowers,tulips,purple,purple prince,April,holland,"22,000","220,000",10
+secondary focal flowers,tulips,purple,purple prince,May,holland,"22,000","220,000",10
+line flowers,tulips,light pink,dynasty,April,holland,"25,000","250,000",10
+line flowers,tulips,light pink,dynasty,May,holland,"25,000","250,000",10
+secondary focal flowers,tulips,light pink,dynasty,April,holland,"25,000","250,000",10
+secondary focal flowers,tulips,light pink,dynasty,May,holland,"25,000","250,000",10
+focal flowers,chrysant peony,blue,painted blue,April,vietnam,25000,"125,000",5
+focal flowers,chrysant peony,dark pink,painted dark pink,May,vietnam,25000,"125,000",5
+focal flowers,chrysant peony,light blue,painted light blue,June,vietnam,25000,"125,000",5
+focal flowers,chrysant peony,mauve,painted mauve,July,vietnam,25000,"125,000",5
+focal flowers,chrysant peony,orange,painted orange,August,vietnam,25000,"125,000",5
+focal flowers,chrysant peony,pastel pink,painted pastel pink,September,vietnam,25000,"125,000",5
+focal flowers,chrysant peony,pastel purple,painted pastel purple,October,vietnam,25000,"125,000",5
+focal flowers,peony,coral,coral sunset,April,new_zealand,"70,000",350000,5
+focal flowers,peony,red,red charm,April,new_zealand,"70,000",350000,5
+focal flowers,peony,coral,coral sunset,May,new_zealand,"70,000",350000,5
+focal flowers,peony,red,red charm,May,new_zealand,"70,000",350000,5
+focal flowers,peony,coral,coral sunset,June,new_zealand,"70,000",350000,5
+focal flowers,peony,red,red charm,June,new_zealand,"70,000",350000,5
+focal flowers,sunflower,yellow,yellow,all season,local,9000,45000,5
+fillers,queen anne's lace,green,green,all season,local,8000,40000,5
+line flowers,oncidium orchid,yellow,yellow oncidium orchid,Oct,vietnam,30000,150000,5
+line flowers,oncidium orchid,yellow,yellow oncidium orchid,Nov,vietnam,30000,150000,5
+line flowers,oncidium orchid,yellow,yellow oncidium orchid,Dec,vietnam,30000,150000,5
+line flowers,oncidium orchid,yellow,yellow oncidium orchid,Jan,vietnam,30000,150000,5
+line flowers,oncidium orchid,yellow,yellow oncidium orchid,Feb,vietnam,30000,150000,5
