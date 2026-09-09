@@ -213,6 +213,7 @@ def get_valid_modes(base_color):
 
 app = dash.Dash(__name__)
 
+server = app.server
 
 app.layout = html.Div([
 
