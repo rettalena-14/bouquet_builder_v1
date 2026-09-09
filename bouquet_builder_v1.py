@@ -49,7 +49,7 @@ color_groups = {
     "yellow": ["yellow", "light yellow"],
     "blue": ["blue", "navy"],
     "light_blue": ["light blue"],
-    "green": ["sage"],
+    "green": ["green", "sage"],
     "greens": ["green", "sage"],
     "white": ["white", "cream"],
     "brown": ["brown", "beige"],
@@ -161,34 +161,29 @@ def get_allowed_colors(mode, base_color=None):
         if base_color is None:
             return []
 
-        return color_groups.get(base_color, [])
-
-    palette = color_modes.get(mode, [])
-
-    base_group = None
-
-    if base_color is not None:
-
         for group, shades in color_groups.items():
 
             if base_color in shades:
-                base_group = group
-                break
+                return shades
 
-        if base_group not in palette:
-            return []
+        return [base_color]
+
+    palette = color_modes.get(mode, [])
 
     expanded = []
 
     for group in palette:
+
         expanded.extend(
-            color_groups.get(group, [])
+            color_groups.get(group, [group])
         )
 
-    return expanded
-
+    return list(dict.fromkeys(expanded))
 
 def get_valid_modes(base_color):
+
+    if not base_color:
+        return []
 
     valid_modes = []
 
@@ -198,13 +193,19 @@ def get_valid_modes(base_color):
             valid_modes.append(mode)
             continue
 
-        for group, shades in color_groups.items():
+        for group in palette:
 
-            if base_color in shades and group in palette:
+            shades = color_groups.get(
+                group,
+                [group]
+            )
+
+            if base_color in shades:
+
                 valid_modes.append(mode)
+                break
 
     return valid_modes
-
 
 # ============================================================
 # DASH APP
@@ -821,42 +822,40 @@ def update_color_options(focal):
 )
 def update_flower_options(selected_color):
 
+    # All focal flowers
     all_flowers = list(
         flower_roles.keys()
     )
 
+    # If no color is selected,
+    # show all focal flowers
     if not selected_color:
 
-        return [
+        valid_flowers = all_flowers
 
-            {
-                "label": f.capitalize(),
-                "value": f
-            }
+    else:
 
-            for f in all_flowers
+        # Only show flowers that
+        # are available in the selected color
+        valid_flowers = [
+
+            flower
+
+            for flower, colors
+            in flower_color_options.items()
+
+            if selected_color in colors
         ]
-
-    valid_flowers = [
-
-        f
-
-        for f, colors
-        in flower_color_options.items()
-
-        if selected_color in colors
-    ]
 
     return [
 
         {
-            "label": f.capitalize(),
-            "value": f
+            "label": flower.capitalize(),
+            "value": flower
         }
 
-        for f in valid_flowers
+        for flower in valid_flowers
     ]
-
 
 # -----------------------------
 # 5. UPDATE COLOR MODES
@@ -1075,8 +1074,10 @@ def update_flower_recommendations(focal):
 # RUN APP
 # -----------------------------
 
-if __name__ == "__main__":
+import os
 
+if __name__ == "__main__":
     app.run(
-        debug=True
+        host="0.0.0.0",
+        port=int(os.environ.get("PORT", 8050))
     )
