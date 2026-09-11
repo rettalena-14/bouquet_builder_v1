@@ -1,1 +1,0 @@
-To run the dashboard app:1. Open command prompt or terminal2. Type cd Desktop/data_and_analytics_stuff/lenas_garden3. Type python3 flower_palette_w_viz.py4. Open in web: http://127.0.0.1:8050/
