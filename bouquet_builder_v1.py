@@ -131,8 +131,8 @@ flower_color_options = {
 flower_images = {
     "roses": "https://images.unsplash.com/photo-1559563362-c667ba5f5480?q=80&w=1001&auto=format&fit=crop",
     "lisianthus": "https://images.unsplash.com/photo-1705818631170-c93e1955ad61?q=80&w=987&auto=format&fit=crop",
-    "carnations": "https://plus.unsplash.com/premium_photo-1677178629088-ba7d3a23049a?q=80&w=987&auto=format&fit=crop",
-    "aster": "https://images.unsplash.com/photo-1711911944478-a4bec4c536e8?q=80&w=1035&auto=format&fit=crop",
+    "carnations": "https://images.unsplash.com/photo-1617265178200-facb3f9d8f37?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "asters": "https://images.unsplash.com/photo-1711911944478-a4bec4c536e8?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "carnation spray": "https://images.unsplash.com/photo-1675687106027-13a77f057716?q=80&w=1770&auto=format&fit=crop",
     "baby's breath": "https://images.unsplash.com/photo-1608153917926-c467b4e23b6f?q=80&w=3087&auto=format&fit=crop",
     "calla lilies": "https://images.unsplash.com/photo-1625068786411-4e7fe1f6191c?q=80&w=3270&auto=format&fit=crop",
