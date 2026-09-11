@@ -1,4 +1,4 @@
-Bouquet Builder — Version 1
+Bouquet Builder Version 1.0
 
 Hello! I’m Lena, a florist and data analyst. I created the Bouquet Builder to bring together information that florists and flower enthusiasts in Jakarta might find useful, along with a simple bouquet builder for anyone who needs a little guidance when creating an arrangement.
 
